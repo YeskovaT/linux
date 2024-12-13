@@ -1,0 +1,14 @@
+ 1 echo "Hello Student"
+  2 read -p "Введите ваше имя: " NAME
+  3 echo "Welcome to terminal SNAME"
+  4 mkdir -p /tmp/test
+  5 touch /tmp/mydate.txt
+  6 date '+%Y-%m-%d  %H:%M:%S' >> mydate.txt
+  7 echo "Save data"
+  8 for run in {1..10};
+  9 do
+ 10 sleep 0.5
+ 11 echo $rum
+ 12 done
+ 13 echo "Well done Boss"
+ 14 df -h >> mydate.txt
